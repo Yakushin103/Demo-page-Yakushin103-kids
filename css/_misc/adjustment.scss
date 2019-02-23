@@ -1,0 +1,25 @@
+html, body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+}
+
+p{
+	font-weight: normal;
+	font-style: normal;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #fff;
+  @include laptop{
+    font-size: 13px;
+  }
+}
+
+.container{
+  padding: 0;
+}

@@ -1,0 +1,34 @@
+.slider{
+  margin: 50px 0;
+  img{
+    max-height: 500px;
+    width: 80%;
+  }
+}
+
+.carousel-indicators li{
+  border: none;
+  background: url(../img/header_2.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.carousel-indicators li:nth-child(2){
+  background: url(../img/header_3.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-indicators li:nth-child(3){
+  background: url(../img/header_4.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
