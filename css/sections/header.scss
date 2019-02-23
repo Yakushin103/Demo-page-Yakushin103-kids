@@ -6,21 +6,25 @@ header{
 
 .header__title{
   width: 100%;
-  padding: 20px 0;
-  background: url(../img/header__bg.jpg);
-  background-size: cover;
+  padding: 10px 0;
+  background: linear-gradient( 90deg, #484f62, #252b3c);
 }
 
 h1{
-  margin-top: 0;
+  margin: 0;
   font-size: 40px;
   font-family: '13888';
   font-weight: normal;
   font-style: normal;
-  letter-spacing: 5px;
-  text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  letter-spacing: 2px;
   @include laptop{
     font-size: 27px;
+  }
+}
+
+.header__benefit{
+  h2{
+    color: #ffb022;
   }
 }
 
@@ -36,6 +40,7 @@ p{
 
 .pic{
   max-height: 450px;
+  background: #a4acfa;
   display: flex;
   justify-content: center;
   img{
@@ -77,7 +82,7 @@ p{
   flex-direction: column;
   position: absolute;
   left: calc(50% - 50px);
-  top: -50px;
+  top: 0;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -91,6 +96,15 @@ p{
     top: -30px;
     width: 60px;
     height: 60px;
+  }
+}
+
+.header__benefit{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  &.prices__link-middle{
+    top: 50px;
   }
 }
 
