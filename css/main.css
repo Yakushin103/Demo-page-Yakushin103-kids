@@ -14752,6 +14752,7 @@ p {
 
 .slider {
   padding: 50px 0;
+  padding-bottom: 150px;
   background: -webkit-gradient(linear, left top, right top, from(#484f62), to(#252b3c));
   background: -webkit-linear-gradient(left, #484f62, #252b3c);
   background: -o-linear-gradient(left, #484f62, #252b3c);
@@ -14761,6 +14762,9 @@ p {
     width: 80%; }
   .slider h2 {
     color: #fff; }
+
+.carousel-indicators {
+  bottom: -140px; }
 
 .carousel-indicators li {
   border: none;
