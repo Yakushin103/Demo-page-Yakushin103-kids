@@ -14505,7 +14505,7 @@ h1 {
       font-size: 27px; } }
   @media screen and (max-width: 480px) {
     h1 {
-      font-size: 24px; } }
+      font-size: 20px; } }
 
 .header__benefit h2 {
   color: #ffb022; }
@@ -14531,7 +14531,8 @@ p {
     width: 70%; }
     @media screen and (max-width: 992px) {
       .pic img {
-        width: 100%; } }
+        width: 100%;
+        max-height: 350px; } }
 
 .prices {
   width: 100%;
