@@ -14491,10 +14491,7 @@ header {
 .header__title {
   width: 100%;
   padding: 10px 0;
-  background: -webkit-gradient(linear, left top, right top, from(#fd5a9b), to(#fd70a8));
-  background: -webkit-linear-gradient(left, #fd5a9b, #fd70a8);
-  background: -o-linear-gradient(left, #fd5a9b, #fd70a8);
-  background: linear-gradient(90deg, #fd5a9b, #fd70a8); }
+  background: url(../img/header__bg.jpg); }
 
 h1 {
   margin: 0;
@@ -14506,6 +14503,9 @@ h1 {
   @media screen and (max-width: 992px) {
     h1 {
       font-size: 27px; } }
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 24px; } }
 
 .header__benefit h2 {
   color: #ffb022; }
@@ -14696,6 +14696,8 @@ p {
   background: -webkit-linear-gradient(left, #484f62, #252b3c);
   background: -o-linear-gradient(left, #484f62, #252b3c);
   background: linear-gradient(90deg, #484f62, #252b3c); }
+  .time__content h3 {
+    font-size: 18px; }
 
 .time__data {
   display: -webkit-box;
@@ -14748,11 +14750,16 @@ p {
     color: #fff; }
 
 .slider {
-  margin-top: 50px;
-  padding-bottom: 50px; }
+  padding: 50px 0;
+  background: -webkit-gradient(linear, left top, right top, from(#484f62), to(#252b3c));
+  background: -webkit-linear-gradient(left, #484f62, #252b3c);
+  background: -o-linear-gradient(left, #484f62, #252b3c);
+  background: linear-gradient(90deg, #484f62, #252b3c); }
   .slider img {
     max-height: 500px;
     width: 80%; }
+  .slider h2 {
+    color: #fff; }
 
 .carousel-indicators li {
   border: none;

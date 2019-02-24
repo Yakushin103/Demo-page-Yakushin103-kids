@@ -7,7 +7,7 @@ header{
 .header__title{
   width: 100%;
   padding: 10px 0;
-  background: linear-gradient( 90deg, #fd5a9b, #fd70a8);
+  background: url(../img/header__bg.jpg);
 }
 
 h1{
@@ -19,6 +19,9 @@ h1{
   letter-spacing: 2px;
   @include laptop{
     font-size: 27px;
+  }
+  @include phones{
+    font-size: 24px;
   }
 }
 

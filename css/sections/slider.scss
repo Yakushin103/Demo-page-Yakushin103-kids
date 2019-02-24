@@ -1,9 +1,12 @@
 .slider{
-  margin-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0;
+  background: linear-gradient( 90deg, #484f62, #252b3c);
   img{
     max-height: 500px;
     width: 80%;
+  }
+  h2{
+    color: #fff;
   }
 }
 
