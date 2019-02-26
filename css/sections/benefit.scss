@@ -1,13 +1,26 @@
 .benefit{
-  background: #fff;
+  background: #a4acfa;
   color: #000;
-  margin: 100px 0;
+  padding-bottom: 100px;
   padding: 0 15px;
   p{
-    color: #000;
+    font-size: 16px;
+    font-family: '13888';
+    font-weight: normal;
+    font-style: normal;
+    color: #252b3c;
   }
   @include laptop{
-    margin: 50px 0;
+    padding-bottom: 50px;
+  }
+}
+
+.benefit__title img{
+  width: 450px;
+  height: 450px;
+  @include laptop{
+    width: 250px;
+    height: 250px;
   }
 }
 
@@ -30,9 +43,21 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
   i{
     padding-right: 20px;
     font-size: 24px;
   }
+}
+
+.benefit_text_1{
+  background: linear-gradient( 90deg, #29ca59, #0ea847);
+}
+.benefit_text_2{
+  background: linear-gradient( 90deg, #ffe15a, #ffb022);
+}
+.benefit_text_3{
+  background: linear-gradient( 90deg, #29ca59, #0ea847);
+}
+.benefit_text_4{
+  background: linear-gradient( 90deg, #ffe15a, #ffb022);
 }
