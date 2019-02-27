@@ -14633,58 +14633,14 @@ p {
   -ms-flex-direction: row;
   flex-direction: row; }
 
-.prices__link-middle {
-  -webkit-animation: run 3s infinite ease-in;
-  animation: run 3s infinite ease-in; }
-
-@-webkit-keyframes run {
-  0% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); }
-  25% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2); }
-  50% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3); }
-  75% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-@keyframes run {
-  0% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); }
-  25% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2); }
-  50% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3); }
-  75% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
 .benefit {
   background: #a4acfa;
   color: #000;
-  padding-bottom: 100px;
   padding: 0 15px; }
   .benefit p {
+    font-weight: bold;
     font-size: 16px;
-    font-family: '13888';
-    font-weight: normal;
-    font-style: normal;
     color: #252b3c; }
-  @media screen and (max-width: 992px) {
-    .benefit {
-      padding-bottom: 50px; } }
 
 .benefit__title img {
   width: 450px;
@@ -14829,7 +14785,7 @@ p {
 
 .carousel-indicators li {
   border: none;
-  background: url(../img/header_2.webp);
+  background: url(../img/header_2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14839,13 +14795,13 @@ p {
     opacity: 1; }
 
 .carousel-indicators li:nth-child(2) {
-  background: url(../img/header_3.webp);
+  background: url(../img/header_3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .carousel-indicators li:nth-child(3) {
-  background: url(../img/header_4.webp);
+  background: url(../img/header_4.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
