@@ -14471,7 +14471,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #000; }
+  color: #5a3500; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
@@ -14517,7 +14517,7 @@ h1 {
       font-size: 20px; } }
 
 .header__benefit h2 {
-  color: #ffb022; }
+  color: #5a3500; }
 
 p {
   font-size: 18px; }
@@ -14576,12 +14576,12 @@ p {
     font-size: 14px; }
     @media screen and (max-width: 992px) {
       .pic__free p {
-        font-size: 10px; } }
+        font-size: 13px; } }
     .pic__free p span {
       font-size: 16px; }
       @media screen and (max-width: 992px) {
         .pic__free p span {
-          font-size: 14px; } }
+          font-size: 15px; } }
 
 .prices {
   width: 100%;
@@ -14636,7 +14636,7 @@ p {
   background: linear-gradient(90deg, #ffe15a, #ffb022);
   z-index: 1; }
   .prices__link-free p {
-    color: #000; }
+    color: #5a3500; }
   @media screen and (max-width: 992px) {
     .prices__link-free {
       width: 60px;
@@ -14752,7 +14752,7 @@ p {
     font-family: '13888';
     font-weight: normal;
     font-style: normal;
-    color: #000; }
+    color: #5a3500; }
 
 .time__data {
   display: -webkit-box;
@@ -14799,7 +14799,7 @@ p {
 .video__title {
   margin-bottom: 20px; }
   .video__title h2 {
-    color: #000; }
+    color: #5a3500; }
 
 .slider {
   padding: 50px 0;
@@ -14815,7 +14815,7 @@ p {
         width: 100%;
         height: auto; } }
   .slider h2 {
-    color: #000; }
+    color: #5a3500; }
 
 .carousel-indicators {
   bottom: -140px; }
