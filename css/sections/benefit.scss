@@ -3,7 +3,7 @@
   color: #000;
   padding: 0 15px;
   @include phones{
-    background: linear-gradient( 90deg, #484f62, #252b3c);
+    background: url(../img/header-bg.jpg);
   }
   p{
     font-family: 'AngryBirds';

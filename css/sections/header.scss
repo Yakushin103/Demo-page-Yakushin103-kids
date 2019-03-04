@@ -3,7 +3,7 @@ header{
   height: 100vh;
   background: #a4acfa;
   @include phones{
-    background: linear-gradient( 90deg, #484f62, #252b3c);
+    background: url(../img/header-bg.jpg);
   }
 }
 
@@ -57,7 +57,7 @@ p{
       max-height: 350px;
     }
     @include phones{
-      max-height: 320px;
+      max-height: 300px;
     }
   }
 }
@@ -102,7 +102,7 @@ p{
 }
 
 .prices__link:first-child{
-  background: linear-gradient( 90deg, #484f62, #252b3c 80%, #29ca59);
+  background: linear-gradient( 90deg, #484f62, #252b3c 65%, #29ca59);
 }
 
 .prices__link:last-child{
