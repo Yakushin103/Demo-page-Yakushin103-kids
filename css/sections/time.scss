@@ -5,9 +5,12 @@
 
 .time__content{
   padding: 15px;
-  background: linear-gradient( 90deg, #484f62, #252b3c);
+  background: url(../img/header-bg.jpg);
   h3{
     font-size: 18px;
+  }
+  p{
+    color: #000;
   }
 }
 

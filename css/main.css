@@ -14471,7 +14471,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #fff; }
+  color: #000; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
@@ -14602,10 +14602,10 @@ p {
   position: relative; }
 
 .prices__link:first-child {
-  background: -webkit-gradient(linear, left top, right top, from(#484f62), to(#252b3c));
-  background: -webkit-linear-gradient(left, #484f62, #252b3c);
-  background: -o-linear-gradient(left, #484f62, #252b3c);
-  background: linear-gradient(90deg, #484f62, #252b3c); }
+  background: -webkit-gradient(linear, left top, right top, from(#484f62), color-stop(80%, #252b3c), to(#29ca59));
+  background: -webkit-linear-gradient(left, #484f62, #252b3c 80%, #29ca59);
+  background: -o-linear-gradient(left, #484f62, #252b3c 80%, #29ca59);
+  background: linear-gradient(90deg, #484f62, #252b3c 80%, #29ca59); }
 
 .prices__link:last-child {
   background: -webkit-gradient(linear, left top, right top, from(#29ca59), to(#0ea847));
@@ -14748,12 +14748,11 @@ p {
 
 .time__content {
   padding: 15px;
-  background: -webkit-gradient(linear, left top, right top, from(#484f62), to(#252b3c));
-  background: -webkit-linear-gradient(left, #484f62, #252b3c);
-  background: -o-linear-gradient(left, #484f62, #252b3c);
-  background: linear-gradient(90deg, #484f62, #252b3c); }
+  background: url(../img/header-bg.jpg); }
   .time__content h3 {
     font-size: 18px; }
+  .time__content p {
+    color: #000; }
 
 .time__data {
   display: -webkit-box;
