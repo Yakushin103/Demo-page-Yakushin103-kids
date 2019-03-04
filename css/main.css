@@ -14896,18 +14896,18 @@ p {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .detail {
+  background: url(../img/header-bg.jpg);
   width: 100%;
-  margin: 50px 0;
-  color: #000;
-  padding: 0 15px; }
+  padding: 50px 15px;
+  color: #5a3500; }
   .detail p {
-    color: #000; }
+    color: #5a3500; }
   .detail h2 {
     font-family: '13888';
     font-weight: normal;
     font-style: normal;
     letter-spacing: 2px;
-    color: #000; }
+    color: #5a3500; }
 
 .detail__content {
   position: relative; }
