@@ -14744,8 +14744,14 @@ p {
   padding: 15px;
   background: url(../img/header-bg.jpg); }
   .time__content h3 {
+    font-family: '13888';
+    font-weight: normal;
+    font-style: normal;
     font-size: 18px; }
   .time__content p {
+    font-family: '13888';
+    font-weight: normal;
+    font-style: normal;
     color: #000; }
 
 .time__data {
