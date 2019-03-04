@@ -14493,6 +14493,12 @@ header {
   width: 100%;
   height: 100vh;
   background: #a4acfa; }
+  @media screen and (max-width: 480px) {
+    header {
+      background: -webkit-gradient(linear, left top, right top, from(#484f62), to(#252b3c));
+      background: -webkit-linear-gradient(left, #484f62, #252b3c);
+      background: -o-linear-gradient(left, #484f62, #252b3c);
+      background: linear-gradient(90deg, #484f62, #252b3c); } }
 
 .header__title {
   width: 100%;

@@ -2,6 +2,9 @@ header{
   width: 100%;
   height: 100vh;
   background: #a4acfa;
+  @include phones{
+    background: linear-gradient( 90deg, #484f62, #252b3c);
+  }
 }
 
 .header__title{
