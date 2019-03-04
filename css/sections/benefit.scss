@@ -1,6 +1,6 @@
 .benefit{
   background: #a4acfa;
-  color: #000;
+  color: #5a3500;
   padding: 0 15px;
   @include phones{
     background: url(../img/header-bg.jpg);
@@ -9,7 +9,7 @@
     font-family: 'AngryBirds';
     text-transform: uppercase;
     font-size: 16px;
-    color: #252b3c;
+    color: #5a3500;
   }
 }
 
@@ -33,7 +33,7 @@
     font-weight: normal;
     font-style: normal;
     letter-spacing: 2px;
-    color: #000;
+    color: #5a3500;
   }
 }
 
@@ -45,7 +45,9 @@
   display: flex;
   padding: 10px;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
+  background: url(../img/header-bg.jpg);
   i{
     padding-right: 20px;
     img{
@@ -55,15 +57,15 @@
   }
 }
 
-.benefit_text_1{
-  background: linear-gradient( 0deg, #ffb022, #0ea847);
-}
-.benefit_text_2{
-  background: linear-gradient( 0deg, #0ea847, #ffb022);
-}
-.benefit_text_3{
-  background: linear-gradient( 0deg, #ffb022, #0ea847);
-}
-.benefit_text_4{
-  background: linear-gradient( 0deg, #0ea847, #ffb022);
-}
+//.benefit_text_1{
+//  background: linear-gradient( 0deg, #ffb022, #0ea847);
+//}
+//.benefit_text_2{
+//  background: linear-gradient( 0deg, #0ea847, #ffb022);
+//}
+//.benefit_text_3{
+//  background: linear-gradient( 0deg, #ffb022, #0ea847);
+//}
+//.benefit_text_4{
+//  background: linear-gradient( 0deg, #0ea847, #ffb022);
+//}

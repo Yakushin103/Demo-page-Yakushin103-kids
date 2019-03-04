@@ -14657,7 +14657,7 @@ p {
 
 .benefit {
   background: #a4acfa;
-  color: #000;
+  color: #5a3500;
   padding: 0 15px; }
   @media screen and (max-width: 480px) {
     .benefit {
@@ -14666,7 +14666,7 @@ p {
     font-family: 'AngryBirds';
     text-transform: uppercase;
     font-size: 16px;
-    color: #252b3c; }
+    color: #5a3500; }
 
 .benefit__title img {
   width: auto;
@@ -14689,7 +14689,7 @@ p {
     font-weight: normal;
     font-style: normal;
     letter-spacing: 2px;
-    color: #000; }
+    color: #5a3500; }
 
 .benefit__title {
   margin-bottom: 0; }
@@ -14703,38 +14703,18 @@ p {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  background: url(../img/header-bg.jpg); }
   .benefit_text i {
     padding-right: 20px; }
     .benefit_text i img {
       width: 30px;
       height: 30px; }
-
-.benefit_text_1 {
-  background: -webkit-gradient(linear, left bottom, left top, from(#ffb022), to(#0ea847));
-  background: -webkit-linear-gradient(bottom, #ffb022, #0ea847);
-  background: -o-linear-gradient(bottom, #ffb022, #0ea847);
-  background: linear-gradient(0deg, #ffb022, #0ea847); }
-
-.benefit_text_2 {
-  background: -webkit-gradient(linear, left bottom, left top, from(#0ea847), to(#ffb022));
-  background: -webkit-linear-gradient(bottom, #0ea847, #ffb022);
-  background: -o-linear-gradient(bottom, #0ea847, #ffb022);
-  background: linear-gradient(0deg, #0ea847, #ffb022); }
-
-.benefit_text_3 {
-  background: -webkit-gradient(linear, left bottom, left top, from(#ffb022), to(#0ea847));
-  background: -webkit-linear-gradient(bottom, #ffb022, #0ea847);
-  background: -o-linear-gradient(bottom, #ffb022, #0ea847);
-  background: linear-gradient(0deg, #ffb022, #0ea847); }
-
-.benefit_text_4 {
-  background: -webkit-gradient(linear, left bottom, left top, from(#0ea847), to(#ffb022));
-  background: -webkit-linear-gradient(bottom, #0ea847, #ffb022);
-  background: -o-linear-gradient(bottom, #0ea847, #ffb022);
-  background: linear-gradient(0deg, #0ea847, #ffb022); }
 
 .time {
   width: 100%;
@@ -14791,6 +14771,10 @@ p {
   border-radius: 2px;
   padding: 5px;
   background: #ffb022; }
+
+.form input {
+  border-color: #5a3500;
+  background: rgba(255, 255, 255, 0.5); }
 
 .video {
   padding: 20px 0;
