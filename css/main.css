@@ -14497,7 +14497,10 @@ header {
 .header__title {
   width: 100%;
   padding: 10px 0;
-  background: url(../img/header__bg.jpg); }
+  background: -webkit-gradient(linear, left top, right top, from(#484f62), to(#252b3c));
+  background: -webkit-linear-gradient(left, #484f62, #252b3c);
+  background: -o-linear-gradient(left, #484f62, #252b3c);
+  background: linear-gradient(90deg, #484f62, #252b3c); }
 
 h1 {
   margin: 0;
@@ -14540,6 +14543,9 @@ p {
       .pic img {
         width: 100%;
         max-height: 350px; } }
+    @media screen and (max-width: 480px) {
+      .pic img {
+        max-height: 320px; } }
 
 .pic__free {
   display: -webkit-box;
@@ -14656,6 +14662,10 @@ p {
     .benefit__title img {
       width: 250px;
       height: 250px; } }
+  @media screen and (max-width: 480px) {
+    .benefit__title img {
+      width: 100%;
+      height: auto; } }
 
 .benefit__title,
 .video__title,
@@ -14671,6 +14681,9 @@ p {
     font-style: normal;
     letter-spacing: 2px;
     color: #000; }
+
+.benefit__title {
+  margin-bottom: 0; }
 
 .benefit_text {
   display: -webkit-box;
@@ -14795,7 +14808,7 @@ p {
 
 .carousel-indicators li {
   border: none;
-  background: url(../img/header_2.jpg);
+  background: url(../img/pic-3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14805,13 +14818,13 @@ p {
     opacity: 1; }
 
 .carousel-indicators li:nth-child(2) {
-  background: url(../img/header_3.jpg);
+  background: url(../img/pic-4.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .carousel-indicators li:nth-child(3) {
-  background: url(../img/header_4.jpg);
+  background: url(../img/pic-5.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
