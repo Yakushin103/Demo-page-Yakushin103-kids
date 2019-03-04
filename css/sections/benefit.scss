@@ -11,12 +11,8 @@
 }
 
 .benefit__title img{
-  width: 450px;
-  height: 450px;
-  @include laptop{
-    width: 250px;
-    height: 250px;
-  }
+  width: auto;
+  height: auto;
   @include phones{
     width: 100%;
     height: auto;

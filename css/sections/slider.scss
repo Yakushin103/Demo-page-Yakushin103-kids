@@ -5,6 +5,10 @@
   img{
     max-height: 500px;
     width: 80%;
+    @include phones{
+      width: auto;
+      height: auto;
+    }
   }
   h2{
     color: #fff;
