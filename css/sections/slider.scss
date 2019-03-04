@@ -3,8 +3,9 @@
   padding-bottom: 150px;
   background: linear-gradient( 90deg, #484f62, #252b3c);
   img{
+    margin: 0 auto;
     max-height: 500px;
-    width: 80%;
+    width: 500px;
     @include phones{
       width: auto;
       height: auto;
