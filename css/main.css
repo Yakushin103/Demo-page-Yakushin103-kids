@@ -14599,16 +14599,16 @@ p {
   position: relative; }
 
 .prices__link:first-child {
-  background: -webkit-gradient(linear, left top, right top, from(#484f62), color-stop(65%, #252b3c), to(#29ca59));
-  background: -webkit-linear-gradient(left, #484f62, #252b3c 65%, #29ca59);
-  background: -o-linear-gradient(left, #484f62, #252b3c 65%, #29ca59);
-  background: linear-gradient(90deg, #484f62, #252b3c 65%, #29ca59); }
+  background: url(../img/bg-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .prices__link:last-child {
-  background: -webkit-gradient(linear, left top, right top, from(#29ca59), to(#0ea847));
-  background: -webkit-linear-gradient(left, #29ca59, #0ea847);
-  background: -o-linear-gradient(left, #29ca59, #0ea847);
-  background: linear-gradient(90deg, #29ca59, #0ea847); }
+  background: url(../img/bg-2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .prices__link-free {
   display: -webkit-box;
@@ -14655,6 +14655,9 @@ p {
   -ms-flex-direction: row;
   flex-direction: row; }
 
+.prices__link-left p {
+  opacity: .7; }
+
 .benefit {
   background: #a4acfa;
   color: #5a3500;
@@ -14666,7 +14669,7 @@ p {
     font-family: 'AngryBirds';
     text-transform: uppercase;
     font-size: 16px;
-    color: #5a3500; }
+    color: #fff; }
 
 .benefit__title img {
   width: auto;
@@ -14694,6 +14697,13 @@ p {
 .benefit__title {
   margin-bottom: 0; }
 
+.benefit__bg {
+  width: 100%;
+  background: url(../img/bg-3.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .benefit_text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14708,8 +14718,7 @@ p {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  background: url(../img/header-bg.jpg); }
+  align-items: center; }
   .benefit_text i {
     padding-right: 20px; }
     .benefit_text i img {
@@ -14880,18 +14889,21 @@ p {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .detail {
-  background: url(../img/header-bg.jpg);
+  background: url(../img/bg-4.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   padding: 50px 15px;
-  color: #5a3500; }
+  color: #000; }
   .detail p {
-    color: #5a3500; }
+    color: #000; }
   .detail h2 {
     font-family: '13888';
     font-weight: normal;
     font-style: normal;
     letter-spacing: 2px;
-    color: #5a3500; }
+    color: #000; }
 
 .detail__content {
   position: relative; }

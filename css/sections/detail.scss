@@ -1,17 +1,20 @@
 .detail{
-  background: url(../img/header-bg.jpg);
+  background: url(../img/bg-4.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   padding: 50px 15px;
-  color: #5a3500;
+  color: #000;
   p{
-    color: #5a3500;
+    color: #000;
   }
   h2{
     font-family: '13888';
     font-weight: normal;
     font-style: normal;
     letter-spacing: 2px;
-    color: #5a3500;
+    color: #000;
   }
 }
 

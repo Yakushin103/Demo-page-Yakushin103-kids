@@ -9,7 +9,7 @@
     font-family: 'AngryBirds';
     text-transform: uppercase;
     font-size: 16px;
-    color: #5a3500;
+    color: #fff;
   }
 }
 
@@ -41,13 +41,21 @@
   margin-bottom: 0;
 }
 
+.benefit__bg{
+  width: 100%;
+  background: url(../img/bg-3.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .benefit_text{
   display: flex;
   padding: 10px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: url(../img/header-bg.jpg);
+
   i{
     padding-right: 20px;
     img{

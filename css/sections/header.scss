@@ -102,11 +102,19 @@ p{
 }
 
 .prices__link:first-child{
-  background: linear-gradient( 90deg, #484f62, #252b3c 65%, #29ca59);
+  //background: linear-gradient( 90deg, #484f62, #252b3c 65%, #29ca59);
+  background: url(../img/bg-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .prices__link:last-child{
-  background: linear-gradient( 90deg, #29ca59, #0ea847);
+  //background: linear-gradient( 90deg, #29ca59, #0ea847);
+  background: url(../img/bg-2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .prices__link-free{
@@ -138,4 +146,8 @@ p{
   width: 100%;
   display: flex;
   flex-direction: row;
+}
+
+.prices__link-left p{
+  opacity: .7;
 }
