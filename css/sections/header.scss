@@ -10,7 +10,7 @@ header{
 .header__title{
   width: 100%;
   padding: 10px 0;
-  background: linear-gradient( 90deg, #484f62, #252b3c);
+  background: url(../img/header-bg.jpg);
 }
 
 h1{
@@ -75,6 +75,18 @@ p{
   width: 100px;
   height: 100px;
   background: linear-gradient( 90deg, #ffe15a, #ffb022);
+  p{
+    font-size: 14px;
+    @include laptop{
+      font-size: 10px;
+    }
+    span{
+      font-size: 16px;
+      @include laptop{
+        font-size: 14px;
+      };
+    }
+  }
 }
 
 .prices{

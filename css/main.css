@@ -14503,10 +14503,7 @@ header {
 .header__title {
   width: 100%;
   padding: 10px 0;
-  background: -webkit-gradient(linear, left top, right top, from(#484f62), to(#252b3c));
-  background: -webkit-linear-gradient(left, #484f62, #252b3c);
-  background: -o-linear-gradient(left, #484f62, #252b3c);
-  background: linear-gradient(90deg, #484f62, #252b3c); }
+  background: url(../img/header-bg.jpg); }
 
 h1 {
   margin: 0;
@@ -14578,6 +14575,16 @@ p {
   background: -webkit-linear-gradient(left, #ffe15a, #ffb022);
   background: -o-linear-gradient(left, #ffe15a, #ffb022);
   background: linear-gradient(90deg, #ffe15a, #ffb022); }
+  .pic__free p {
+    font-size: 14px; }
+    @media screen and (max-width: 992px) {
+      .pic__free p {
+        font-size: 10px; } }
+    .pic__free p span {
+      font-size: 16px; }
+      @media screen and (max-width: 992px) {
+        .pic__free p span {
+          font-size: 14px; } }
 
 .prices {
   width: 100%;
