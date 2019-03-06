@@ -2,9 +2,6 @@
   background: url(../img/header-bg.jpg);
   color: #5a3500;
   padding: 0 15px;
-  @include phones{
-    background: url(../img/header-bg.jpg);
-  }
   p{
     font-family: 'AngryBirds';
     text-transform: uppercase;
@@ -72,16 +69,3 @@
 .benefit__link p{
   color: #5a3500;
 }
-
-//.benefit_text_1{
-//  background: linear-gradient( 0deg, #ffb022, #0ea847);
-//}
-//.benefit_text_2{
-//  background: linear-gradient( 0deg, #0ea847, #ffb022);
-//}
-//.benefit_text_3{
-//  background: linear-gradient( 0deg, #ffb022, #0ea847);
-//}
-//.benefit_text_4{
-//  background: linear-gradient( 0deg, #0ea847, #ffb022);
-//}
