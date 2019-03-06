@@ -14722,12 +14722,12 @@ p {
       width: 30px;
       height: 30px; }
 
+.benefit__link h2 {
+  margin-top: 0;
+  padding-top: 0; }
+
 .benefit__link p {
   color: #5a3500; }
-
-.time {
-  width: 100%;
-  margin-bottom: 50px; }
 
 .time__content {
   padding: 15px;
@@ -14742,29 +14742,6 @@ p {
     font-weight: normal;
     font-style: normal;
     color: #5a3500; }
-
-.time__data {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: 15px; }
-
-.time__data-number {
-  width: 30px;
-  height: 30px;
-  background: #fff;
-  color: #000;
-  font-weight: bold; }
 
 .btn {
   text-transform: uppercase;
@@ -14795,7 +14772,7 @@ p {
     color: #5a3500; }
 
 .slider {
-  padding: 50px 0;
+  padding: 0;
   padding-bottom: 150px;
   background: url(../img/header-bg.jpg); }
   .slider img {
