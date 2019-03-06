@@ -1,5 +1,5 @@
 .benefit{
-  background: #a4acfa;
+  background: url(../img/header-bg.jpg);
   color: #5a3500;
   padding: 0 15px;
   @include phones{
@@ -62,6 +62,10 @@
       height: 30px;
     }
   }
+}
+
+.benefit__link p{
+  color: #5a3500;
 }
 
 //.benefit_text_1{
