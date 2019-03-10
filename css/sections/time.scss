@@ -6,9 +6,10 @@
     font-family: '13888';
     font-weight: normal;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
   }
   p{
+    font-size: 16px;
     font-family: '13888';
     font-weight: normal;
     font-style: normal;
@@ -17,10 +18,13 @@
 }
 
 .btn{
+  padding: 10px;
   text-transform: uppercase;
   font-weight: bold;
   background: linear-gradient( 90deg, #ffe15a, #ffb022);
   margin-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 5px;
 }
 
 .time__content p span{

@@ -14480,11 +14480,11 @@ p {
   font-weight: normal;
   font-style: normal;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff; }
   @media screen and (max-width: 992px) {
     p {
-      font-size: 13px; } }
+      font-size: 14px; } }
 
 .container {
   padding: 0; }
@@ -14733,21 +14733,25 @@ p {
     font-family: '13888';
     font-weight: normal;
     font-style: normal;
-    font-size: 18px; }
+    font-size: 20px; }
   .time__content p {
+    font-size: 16px;
     font-family: '13888';
     font-weight: normal;
     font-style: normal;
     color: #5a3500; }
 
 .btn {
+  padding: 10px;
   text-transform: uppercase;
   font-weight: bold;
   background: -webkit-gradient(linear, left top, right top, from(#ffe15a), to(#ffb022));
   background: -webkit-linear-gradient(left, #ffe15a, #ffb022);
   background: -o-linear-gradient(left, #ffe15a, #ffb022);
   background: linear-gradient(90deg, #ffe15a, #ffb022);
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 5px; }
 
 .time__content p span {
   color: #000;
