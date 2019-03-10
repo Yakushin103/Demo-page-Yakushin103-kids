@@ -14788,7 +14788,7 @@ p {
       color: #5a3500; }
 
 .politic {
-  padding: 20px;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14800,7 +14800,7 @@ p {
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .politic a {
-    font-size: 14px; }
+    font-size: 10px; }
 
 .video {
   padding: 20px 0;
