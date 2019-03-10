@@ -14787,6 +14787,21 @@ p {
       background: none;
       color: #5a3500; }
 
+.politic {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .politic a {
+    font-size: 14px; }
+
 .video {
   padding: 20px 0;
   background: url(../img/header-bg.jpg); }
